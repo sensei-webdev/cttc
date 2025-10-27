@@ -38,7 +38,7 @@ const HeroSection = () => {
   </div>
 
     <section className="h-full w-full flex flex-col gap-6 relative overflow-hidden z-20 pb-5">
-      <div id="spacing" className="flex mx-auto w-3/4 justify-between h-40 items-center z-30">
+      <div id="spacing" className="flex mx-auto w-3/4 justify-between h-32 items-center z-30">
         {icons.map((item, index) => (
           <item.Icon key={index} size={48} className={item.color} />
         ))}
@@ -62,7 +62,7 @@ const HeroSection = () => {
                 </a>
             </div>
 
-            <div className="flex flex-wrap w-fit mx-auto gap-2 md:gap-10 justify-center">
+            <div className="flex flex-wrap w-fit mx-auto gap-2 md:gap-12 justify-center mt-4">
               {cards.map((item, index) => (
                 <span key={index} className="flex flex-col gap-3 justify-center items-center rounded-xl px-10 py-5 min-w-32 bg-[rgba(255,255,255,0.1)] backdrop-blur-2xl">
                   <item.Icon size={36} className={item.color} />
