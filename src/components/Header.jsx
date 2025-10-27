@@ -2,14 +2,14 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="flex justify-between h-16 w-10/12 mx-auto bg-[rgba(0,0,0,0.2)] px-5 items-center rounded-2xl">
+    <header className="flex justify-between h-16 bg-[rgba(0,0,0,0.2)] px-5 items-center rounded-2xl z-50">
       <a href="/">
         <img
           src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
           alt="CT Training Centre"
         />
       </a>
-      <div className="text-white flex gap-2.5">
+      <div className="text-white flex gap-6 font-medium">
         <a href="#">Home</a>
         <a href="#">Courses</a>
         <a href="#">Blog</a>

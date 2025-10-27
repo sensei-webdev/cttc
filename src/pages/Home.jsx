@@ -1,13 +1,13 @@
-import React from 'react'
-import Header from '../components/Header'
-import '../Styles/page.css'
+import React from "react";
+import Header from "../components/Header";
+import HeroSection from "../sections/HeroSection";
 
 const Home = () => {
   return (
-    <div className='pages'>
-      <Header/>
+    <div>
+      <HeroSection />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
