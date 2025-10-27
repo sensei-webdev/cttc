@@ -64,7 +64,7 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap w-fit mx-auto gap-2 md:gap-12 justify-center mt-4">
               {cards.map((item, index) => (
-                <span key={index} className="flex flex-col gap-3 justify-center items-center rounded-xl px-10 py-5 min-w-32 bg-[rgba(255,255,255,0.1)] backdrop-blur-2xl">
+                <span key={index} className="flex flex-col gap-2 justify-center items-center rounded-xl px-10 py-6 min-w-32 bg-[rgba(255,255,255,0.1)] backdrop-blur-2xl">
                   <item.Icon size={36} className={item.color} />
                   <h1 className="text-2xl font-bold">{item.h1}</h1>
                   <p>{item.p}</p>
