@@ -1,30 +1,133 @@
+import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
+import { ImWhatsapp } from "react-icons/im";
 import React from "react";
+
+const navigationLinks = [
+  {
+    title: "Courses",
+    items: [
+      { name: "Web Development", link: "" },
+      { name: "Data Science", link: "" },
+      { name: "Mobile Development", link: "" },
+      { name: "Cloud Computing", link: "" },
+      { name: "Cybersecurity", link: "" },
+      { name: "AI & Machine Learning", link: "" },
+    ],
+  },
+  {
+    title: "Company",
+    items: [
+      { name: "About Us", link: "" },
+      { name: "Careers", link: "" },
+      { name: "Press Kit", link: "" },
+      { name: "Blog", link: "" },
+      { name: "Partners", link: "" },
+      { name: "Affiliates", link: "" },
+    ],
+  },
+  {
+    title: "Resources",
+    items: [
+      { name: "Documentation", link: "" },
+      { name: "Help Center", link: "" },
+      { name: "Community", link: "" },
+      { name: "Student Stories", link: "" },
+      { name: "Webinars", link: "" },
+      { name: "Downloads", link: "" },
+    ],
+  },
+  {
+    title: "Legal",
+    items: [
+      { name: "Terms of Service", link: "" },
+      { name: "Privacy Policy", link: "" },
+      { name: "Cookie Policy", link: "" },
+      { name: "Accessibility", link: "" },
+      { name: "Licenses", link: "" },
+      { name: "Sitemap", link: "" },
+    ],
+  },
+];
+
+const footerLinks = [
+  { icon: <FaFacebookF size={24} />, link: "#" },
+  { icon: <FaInstagram size={24} />, link: "#" },
+  { icon: <FaTwitter size={24} />, link: "#" },
+  { icon: <FaLinkedinIn size={24} />, link: "#" },
+  { icon: <FaYoutube size={24} />, link: "#" },
+  { icon: <ImWhatsapp size={24} />, link: "#" },
+];
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
-        <a href="/">
-          <img
-            src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
-            alt="CT Training Centre"
-          />
-        </a>
-        <p>
-          Empowering the next generation of tech professionals through world-class education and mentorship.
-        </p>
-        <ul>
-          <li>
-            <Mail/>contact.cttcpkr@gmail.com
-          </li>
-          <li>
-            <Phone/>+91 987 876 7665
-          </li>
-          <li>
-            <MapPin/>Bank Colony, Pakur, Jharkhand, 816107
-          </li>
-        </ul>
+    <footer className="px-20 py-10 text-gray-400 bg-black/70">
+      <main className="flex pb-12 border-b-2">
+        <div className="flex-1">
+          <a href="/">
+            <img
+              src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
+              alt="CT Training Centre"
+            />
+          </a>
+          <p className="my-4">
+            Empowering the next generation of tech professionals through
+            world-class education and mentorship.
+          </p>
+          <ul className="space-y-5 text-sm">
+            <li className="flex items-center gap-2">
+              <Mail size={20} />
+              contact.cttcpkr@gmail.com
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone size={20} />
+              +91 987 876 7665
+            </li>
+            <li className="flex items-center gap-2">
+              <MapPin size={20} />
+              Bank Colony, Pakur (Jh), 816107
+            </li>
+          </ul>
+        </div>
+        <div className="grid grid-cols-4 justify-evenly flex-2">
+          {navigationLinks.map((menu, index) => (
+            <div key={index} className="flex flex-col">
+              <span className="mb-2.5 text-lg text-white">{menu.title}</span>
+              <ul>
+                {menu.items.map((point, i) => (
+                  <li key={i} className="mb-2 text-sm hover:text-white">
+                    <Link to={point.link}>{point.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </main>
+      <div className="flex justify-between pt-10">
+        <p>© 2025 CT Training Centre. All rights reserved.</p>
+        <span>
+          Developed by
+        <Link to="https://imabubakar.xyz" className="mx-3 font-medium duration-300 ease-in-out text-amber-400 hover:tracking-widest">Abu Bakar</Link>
+        with ❤️
+        </span>
+        <nav className="flex gap-5">
+          {footerLinks.map((items, index) => (
+            <div
+              key={index}
+              className="flex items-center justify-center w-8 h-8 p-5 rounded-full bg-white/10"
+            >
+              <Link to={items.link}>{items.icon}</Link>
+            </div>
+          ))}
+        </nav>
       </div>
     </footer>
   );
