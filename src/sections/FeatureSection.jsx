@@ -1,5 +1,5 @@
 import React from "react";
-import { Clock4, Star, Users } from "lucide-react";
+import { Clock4, IndianRupee, Star, Users } from "lucide-react";
 
 const courses = [
   {
@@ -73,17 +73,21 @@ const FeatureSection = () => {
                 </span>
               </div>
               <div className="text-3xl text-blue-500 font-bold flex gap-2 mb-3">
-                <span>₹</span>
+                <span className="flex justify-center items-center">
+                  <IndianRupee size={28} className="font-bold"/>
+                </span>
                 <span>{items.price}</span>
               </div>
               <div className="text-center text-xl font-medium text-white flex gap-2">
                 <a
-                href={items.link}
-                className="bg-blue-600 py-3 rounded-xl w-full"
-              >
-                Enroll Now
-              </a>
-              <button className="bg-white/10 w-full rounded-xl">View Details</button>
+                  href={items.link}
+                  className="bg-blue-600 py-3 rounded-xl w-full"
+                >
+                  Enroll Now
+                </a>
+                <button className="bg-white/10 w-full rounded-xl">
+                  View Details
+                </button>
               </div>
             </div>
           </div>

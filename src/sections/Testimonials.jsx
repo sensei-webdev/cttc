@@ -44,9 +44,9 @@ const Testimonials = () => {
               />
               <div className="flex flex-col gap-1">
                 <h1 className="font-semibold text-xl">{items.name}</h1>
-                <p className="text-gray-400">{items.placement}</p>
+                <p className="text-gray-400 text-sm">{items.placement}</p>
               </div>
-              <div className="ml-auto text-gray-600">
+              <div className="ml-auto text-gray-700">
                 <Quote size={48} />
               </div>
             </div>

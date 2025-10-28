@@ -7,6 +7,7 @@ const StarRating = () => {
       {[...Array(5)].map((_, i) => (
         <StarIcon
           key={i}
+          size={20}
           fill="yellow"
           color="yellow"
         />

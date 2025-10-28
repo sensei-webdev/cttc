@@ -4,6 +4,7 @@ import HeroSection from "../sections/HeroSection";
 import FeatureSection from "../sections/FeatureSection";
 import WhyUs from "../sections/WhyUs";
 import Testimonials from "../sections/Testimonials";
+import Scholarship from "../sections/Scholarship";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <FeatureSection/>
       <WhyUs/>
       <Testimonials/>
+      <Scholarship/>
     </div>
   );
 };

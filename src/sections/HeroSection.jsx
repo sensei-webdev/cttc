@@ -32,19 +32,19 @@ const cards = [
 const HeroSection = () => {
   return (
   <>
-  <div id="colorLayer" className="w-full h-full absolute top-0 right-0 blur-[6rem] md:blur-[15rem] z-10">
+  <div id="colorLayer" className="w-full h-full absolute top-20 right-0 blur-[6rem] md:blur-[12rem] z-10">
     <div className="circle1 bg-blue-400 w-32 h-16 md:w-[16rem] md:h-64 shadow-3xl absolute top-32 left-0 md:top-0"></div>
-    <div className="circle2 bg-purple-400 w-32 h-16 md:w-64 md:h-64 shadow-3xl absolute bottom-52 right-0 md:bottom-0"></div>
+    <div className="circle2 bg-purple-400 w-32 h-16 md:w-64 md:h-64 shadow-3xl absolute bottom-1/3 right-0 md:bottom-0"></div>
   </div>
 
-    <section className="h-full w-full flex flex-col gap-6 relative overflow-hidden z-20 pb-5">
+    <section className="h-full w-full flex flex-col gap-6 relative overflow-hidden z-20 pb-10">
       <div id="spacing" className="flex mx-auto w-3/4 justify-between h-32 items-center z-30">
         {icons.map((item, index) => (
           <item.Icon key={index} size={48} className={item.color} />
         ))}
       </div>
 
-      <h1 className="text-8xl font-semibold mx-auto leading-snug">
+      <h1 className="text-7xl font-semibold mx-auto leading-snug">
         Welcome to CT Training Centre
       </h1>
 

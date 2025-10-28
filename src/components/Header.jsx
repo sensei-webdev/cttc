@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="flex justify-between h-16 bg-[rgba(0,0,0,0.2)] px-5 items-center rounded-2xl z-50">
+    <header className="flex justify-between h-16 bg-black/50 px-5 items-center rounded-2xl z-50">
       <a href="/">
         <img
           src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
