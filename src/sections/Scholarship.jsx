@@ -58,17 +58,17 @@ const scholarships = [
 const Scholarship = () => {
   return (
     <>
-      <section className="h-full w-full flex flex-col items-center gap-5 py-10">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-linear-to-br from-blue-500 to-purple-500 mb-4">
+      <section className="flex flex-col items-center w-full h-full gap-5 py-10">
+        <div className="inline-flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-linear-to-br from-blue-500 to-purple-500">
           <GraduationCap size={32} />
         </div>
         <h1 className="text-5xl font-bold">Scholarship Programs</h1>
-        <p className="text-xl md:w-2/3 text-center text-gray-400">
+        <p className="mb-10 text-xl text-center text-gray-400 md:w-2/3">
           We believe education should be accessible to everyone. Apply for our
           scholarship programs and get financial support for your learning
           journey.
         </p>
-        <main className="w-4/5 flex gap-4">
+        <main className="flex w-4/5 gap-4">
           {scholarships.map((items, index) => (
             <div
               key={index}
@@ -80,8 +80,8 @@ const Scholarship = () => {
                 </span>
                 <span className="text-2xl font-semibold">{items.title}</span>
               </div>
-              <p className="text-gray-500 text-sm">{items.subtitle}</p>
-              <div className="flex gap-1 items-center my-3">
+              <p className="text-sm text-gray-500">{items.subtitle}</p>
+              <div className="flex items-center gap-1 my-3">
                 <span className="text-3xl font-bold">{items.coverage}</span>
                 <span className="text-gray-400">{items.coverageP}</span>
               </div>
@@ -98,7 +98,7 @@ const Scholarship = () => {
               </div>
               <a
                 href="/"
-                className="mt-4 w-full text-center bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-3 rounded-lg font-semibold transition-all"
+                className="w-full py-3 mt-4 font-semibold text-center text-white transition-all rounded-lg bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
               >
                 Apply Now
               </a>
@@ -107,9 +107,9 @@ const Scholarship = () => {
         </main>
       </section>
 
-      <div className="w-4/5 mx-auto bg-linear-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-2xl p-8 text-center flex flex-col gap-4 opacity-80">
+      <div className="flex flex-col w-4/5 gap-4 p-8 mx-auto text-center border bg-linear-to-r from-blue-600/20 to-purple-600/20 border-blue-500/30 rounded-2xl opacity-80">
         <span>Application Process</span>
-        <p className="w-1/2 text-sm text-gray-400 mx-auto tracking-wide">
+        <p className="w-1/2 mx-auto text-sm tracking-wide text-gray-400">
           Applications are reviewed on a rolling basis. Submit your application
           along with required documents, and our scholarship committee will
           review within 2 weeks. Selected candidates will be notified via email.

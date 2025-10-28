@@ -28,23 +28,23 @@ const cards = [
 
 const Testimonials = () => {
   return (
-    <section className="h-full w-full flex flex-col items-center gap-5 py-10 bg-black/20">
+    <section className="flex flex-col items-center w-full h-full gap-5 py-10 bg-black/20">
       <h1 className="text-5xl font-bold">Success Stories</h1>
-      <p className="text-xl text-gray-400">
+      <p className="mb-8 text-xl text-gray-400">
         Hear from our graduates who are now thriving in tech
       </p>
-      <div className="w-4/5 flex justify-between mt-5 gap-6">
+      <div className="flex justify-between w-4/5 gap-6 mt-5">
         {cards.map((items, index) => (
-          <div key={index} className="flex flex-1 flex-col gap-4 bg-white/10 p-5 rounded-2xl">
-            <div className="flex gap-3 items-center">
+          <div key={index} className="flex flex-col flex-1 gap-4 p-5 bg-white/10 rounded-2xl">
+            <div className="flex items-center gap-3">
               <img
                 src={items.img}
                 alt="img"
-                className="w-15 h-15 rounded-full"
+                className="rounded-full w-15 h-15"
               />
               <div className="flex flex-col gap-1">
-                <h1 className="font-semibold text-xl">{items.name}</h1>
-                <p className="text-gray-400 text-sm">{items.placement}</p>
+                <h1 className="text-xl font-semibold">{items.name}</h1>
+                <p className="text-sm text-gray-400">{items.placement}</p>
               </div>
               <div className="ml-auto text-gray-700">
                 <Quote size={48} />
