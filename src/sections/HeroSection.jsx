@@ -1,5 +1,6 @@
-import { CodeXml, Flame, GraduationCap, Rocket, Lightbulb,Clock4, Trophy, Users } from "lucide-react";
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { CodeXml, Flame, GraduationCap, Rocket, Lightbulb,Clock4, Trophy, Users } from "lucide-react";
 import '../assets/styles/hero.css'
 
 const icons = [
@@ -34,35 +35,35 @@ const HeroSection = () => {
   <>
   <div id="colorLayer" className="w-full h-full absolute top-20 right-0 blur-[6rem] md:blur-[12rem] z-10">
     <div className="circle1 bg-blue-400 w-32 h-16 md:w-[16rem] md:h-64 shadow-3xl absolute top-32 left-0 md:top-0"></div>
-    <div className="circle2 bg-purple-400 w-32 h-16 md:w-64 md:h-64 shadow-3xl absolute bottom-1/3 right-0 md:bottom-0"></div>
+    <div className="absolute right-0 w-32 h-16 bg-purple-400 circle2 md:w-64 md:h-64 shadow-3xl bottom-1/3 md:bottom-0"></div>
   </div>
 
-    <section className="h-full w-full flex flex-col gap-6 relative overflow-hidden z-20 pb-10">
-      <div id="spacing" className="flex mx-auto w-3/4 justify-between h-32 items-center z-30">
+    <section className="relative z-20 flex flex-col w-full h-full gap-6 pb-10 overflow-hidden">
+      <div id="spacing" className="z-30 flex items-center justify-between w-3/4 h-32 mx-auto">
         {icons.map((item, index) => (
           <item.Icon key={index} size={48} className={item.color} />
         ))}
       </div>
 
-      <h1 className="text-7xl font-semibold mx-auto leading-snug">
+      <h1 className="mx-auto font-semibold leading-snug text-7xl">
         Welcome to CT Training Centre
       </h1>
 
-      <h3 className="text-2xl mx-auto text-gray-400 text-center">
+      <h3 className="mx-auto text-2xl text-center text-gray-400">
         Pakur ka Apna Computer प्रशिक्षण केंद्र <br /> Sikho aur aage badho
       </h3>
 
       <div class="flex flex-col md:flex-row gap-2 md:gap-4 mx-auto">
-                <a href="#"
-                    class="bg-linear-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg inline-flex items-center hover:scale-105 duration-300 transition-all active:scale-90">Explore
-                    Courses</a>
-                <a href="#"
-                    class="border-2  border-blue-600 text-blue-200 px-8 py-4 rounded-full font-semibold text-lg inline-flex backdrop-blur-sm items-center hover:scale-105 active:scale-90 transition-all duration-300">
+                <NavLink to="/courses"
+                    className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white transition-all duration-300 rounded-full bg-linear-to-r from-blue-600 to-purple-600 hover:scale-105 active:scale-90">Explore
+                    Courses</NavLink>
+                <NavLink to="/blog"
+                    className="inline-flex items-center px-8 py-4 text-lg font-semibold text-blue-200 transition-all duration-300 border-2 border-blue-600 rounded-full backdrop-blur-sm hover:scale-105 active:scale-90">
                     See Placement
-                </a>
+                </NavLink>
             </div>
 
-            <div className="flex flex-wrap w-fit mx-auto gap-2 md:gap-12 justify-center mt-4">
+            <div className="flex flex-wrap justify-center gap-2 mx-auto mt-4 w-fit md:gap-12">
               {cards.map((item, index) => (
                 <span key={index} className="flex flex-col gap-2 justify-center items-center rounded-xl px-10 py-6 min-w-32 bg-[rgba(255,255,255,0.1)] backdrop-blur-2xl">
                   <item.Icon size={36} className={item.color} />

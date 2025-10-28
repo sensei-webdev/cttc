@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Clock4, IndianRupee, Star, Users } from "lucide-react";
 
 const courses = [
@@ -74,7 +75,7 @@ const FeatureSection = () => {
               </div>
               <div className="flex gap-2 mb-3 text-3xl font-bold text-blue-500">
                 <span className="flex items-center justify-center">
-                  <IndianRupee size={28} className="font-bold"/>
+                  <IndianRupee size={28} className="font-bold" />
                 </span>
                 <span>{items.price}</span>
               </div>
@@ -94,12 +95,12 @@ const FeatureSection = () => {
         ))}
       </div>
 
-      <a
-        href="#"
-        className="inline-flex items-center px-8 py-4 mt-10 text-lg font-semibold text-white transition-all duration-300 rounded-full bg-linear-to-r from-blue-600 to-purple-600 hover:scale-105 active:scale-90"
+      <NavLink
+        to="/courses"
+        className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white transition-all duration-300 rounded-full bg-linear-to-r from-blue-600 to-purple-600 hover:scale-105 active:scale-90"
       >
         Browse All Courses
-      </a>
+      </NavLink>
     </section>
   );
 };
