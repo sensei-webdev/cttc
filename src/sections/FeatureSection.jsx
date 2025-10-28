@@ -39,7 +39,7 @@ const courses = [
 
 const FeatureSection = () => {
   return (
-    <section className="h-full w-full flex flex-col items-center gap-5">
+    <section className="h-full w-full flex flex-col items-center gap-5 py-10 bg-black/20">
       <h1 className="text-5xl font-bold">Popular Courses</h1>
       <p className="text-xl text-gray-400">
         Start your journey with our most popular programs
@@ -72,7 +72,7 @@ const FeatureSection = () => {
                   {items.rating}
                 </span>
               </div>
-              <div className="text-3xl text-blue-600 font-bold flex gap-2 mb-3">
+              <div className="text-3xl text-blue-500 font-bold flex gap-2 mb-3">
                 <span>₹</span>
                 <span>{items.price}</span>
               </div>
