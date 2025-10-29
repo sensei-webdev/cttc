@@ -12,7 +12,7 @@ const icons = [
 ];
 
 const cards = [
-  {Icon: Clock4,
+  {Icon: Users,
     h1: "10k+",
     p: "Active Students",
     color: "text-blue-400"
@@ -22,7 +22,7 @@ const cards = [
     p: "Success Rate",
     color: "text-purple-400"
   },
-  {Icon: Users,
+  {Icon: Clock4,
     h1: "500h+",
     p: "Course Hours",
     color: "text-green-400"
