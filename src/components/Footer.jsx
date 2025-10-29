@@ -61,8 +61,8 @@ const footerLinks = [
   { icon: <FaFacebookF size={24} />, color: "hover:text-blue-400", link: "#" },
   { icon: <FaInstagram size={24} />, color: "hover:text-pink-500", link: "#" },
   { icon: <FaTwitter size={24} />, color: "hover:text-blue-400", link: "#" },
-  { icon: <FaLinkedinIn size={24} />, color: "hover:text-blue-400", link: "#" },
   { icon: <FaYoutube size={24} />, color: "hover:text-red-500", link: "#" },
+  { icon: <FaLinkedinIn size={24} />, color: "hover:text-blue-400", link: "#" },
   { icon: <ImWhatsapp size={24} />, color: "hover:text-green-400", link: "#" },
 ];
 

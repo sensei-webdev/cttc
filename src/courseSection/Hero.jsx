@@ -40,6 +40,18 @@ const linkCards = [
     linkto: "#",
     title: "Education Training",
   },
+  {
+    image:
+      "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709023/af3261eb-1e76-4128-a7ba-a69d43febc62_lmxnya.png",
+    linkto: "#",
+    title: "Beautician",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709393/tailoring_qqubeo.png",
+    linkto: "#",
+    title: "Tailoring",
+  },
 ];
 
 const Hero = () => {
@@ -49,17 +61,26 @@ const Hero = () => {
         Explore courses by job-functions
       </h1>
       <Swiper
-        spaceBetween={50}
-        slidesPerView={5}
+        spaceBetween={10}
+        slidesPerView={2}
         freeMode={true}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+         breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        }}
       >
         {linkCards.map((items, index) => (
-          <SwiperSlide
-            key={index}
-            className="flex justify-center"
-          >
+          <SwiperSlide key={index} className="flex justify-center">
             <Link to={items.linkto} className="space-y-4">
               <img
                 src={items.image}
