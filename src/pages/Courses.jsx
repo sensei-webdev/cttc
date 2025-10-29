@@ -1,10 +1,11 @@
 import React from 'react'
+import Hero from '../courseSection/Hero'
 
 const Courses = () => {
   return (
-    <div>
-      Courses
-    </div>
+    <main>
+      <Hero/>
+    </main>
   )
 }
 

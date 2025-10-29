@@ -58,18 +58,18 @@ const navigationLinks = [
 ];
 
 const footerLinks = [
-  { icon: <FaFacebookF size={24} />, link: "#" },
-  { icon: <FaInstagram size={24} />, link: "#" },
-  { icon: <FaTwitter size={24} />, link: "#" },
-  { icon: <FaLinkedinIn size={24} />, link: "#" },
-  { icon: <FaYoutube size={24} />, link: "#" },
-  { icon: <ImWhatsapp size={24} />, link: "#" },
+  { icon: <FaFacebookF size={24} />, color: "hover:text-blue-400", link: "#" },
+  { icon: <FaInstagram size={24} />, color: "hover:text-pink-500", link: "#" },
+  { icon: <FaTwitter size={24} />, color: "hover:text-blue-400", link: "#" },
+  { icon: <FaLinkedinIn size={24} />, color: "hover:text-blue-400", link: "#" },
+  { icon: <FaYoutube size={24} />, color: "hover:text-red-500", link: "#" },
+  { icon: <ImWhatsapp size={24} />, color: "hover:text-green-400", link: "#" },
 ];
 
 const Footer = () => {
   return (
     <footer className="px-20 py-10 text-gray-400 bg-black/70">
-      <main className="flex pb-12 border-b-2">
+      <main className="flex pb-10 border-b-2">
         <div className="flex-1">
           <a href="/">
             <img
@@ -77,7 +77,7 @@ const Footer = () => {
               alt="CT Training Centre"
             />
           </a>
-          <p className="my-4">
+          <p className="w-5/6 my-4">
             Empowering the next generation of tech professionals through
             world-class education and mentorship.
           </p>
@@ -102,8 +102,10 @@ const Footer = () => {
               <span className="mb-2.5 text-lg text-white">{menu.title}</span>
               <ul>
                 {menu.items.map((point, i) => (
-                  <li key={i} className="mb-2 text-sm hover:text-white">
-                    <Link to={point.link}>{point.name}</Link>
+                  <li key={i} className="mb-3.5 text-sm">
+                    <Link to={point.link} className="hover:text-white">
+                      {point.name}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -115,16 +117,23 @@ const Footer = () => {
         <p>© 2025 CT Training Centre. All rights reserved.</p>
         <span>
           Developed by
-        <Link to="https://imabubakar.xyz" className="mx-3 font-medium duration-300 ease-in-out text-amber-400 hover:tracking-widest">Abu Bakar</Link>
-        with ❤️
+          <Link
+            to="https://www.imabubakar.xyz"
+            className="mx-3 font-medium duration-300 ease-in-out text-amber-400 hover:tracking-widest"
+          >
+            Abu Bakar
+          </Link>
+          with ❤️
         </span>
         <nav className="flex gap-5">
           {footerLinks.map((items, index) => (
             <div
               key={index}
-              className="flex items-center justify-center w-8 h-8 p-5 rounded-full bg-white/10"
+              className="flex items-center justify-center w-8 h-8 p-5 rounded-full bg-white/10 hover:bg-white/10"
             >
-              <Link to={items.link}>{items.icon}</Link>
+              <Link className={items.color} to={items.link}>
+                {items.icon}
+              </Link>
             </div>
           ))}
         </nav>
