@@ -91,7 +91,7 @@ const multiCourses = [
   },
   {
     icon: WalletMinimal,
-    style: "text-blue-400",
+    style: "text-amber-500",
     category: "Accounting & Finance",
     courses: [
       {
@@ -170,7 +170,7 @@ const multiCourses = [
   },
   {
     icon: Palette,
-    style: "text-pink-400",
+    style: "text-fuchsia-500",
     category: "Creative & Multimedia",
     courses: [
       {
@@ -249,7 +249,7 @@ const multiCourses = [
   },
   {
     icon: Wrench,
-    style: "text-blue-400",
+    style: "text-cyan-500",
     category: "Technician",
     courses: [
       {
@@ -327,7 +327,7 @@ const multiCourses = [
   },
   {
     icon: Briefcase,
-    style: "text-blue-400",
+    style: "text-indigo-400",
     category: "Business Management",
     courses: [
       {
@@ -485,7 +485,7 @@ const multiCourses = [
   },
   {
     icon: Sparkles,
-    style: "text-blue-400",
+    style: "text-rose-400",
     category: "Beautician",
     courses: [
       {
@@ -564,7 +564,7 @@ const multiCourses = [
   },
   {
     icon: Scissors,
-    style: "text-blue-400",
+    style: "text-emerald-400",
     category: "Tailoring",
     courses: [
       {
