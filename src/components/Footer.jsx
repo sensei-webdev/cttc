@@ -61,7 +61,7 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <footer className="text-gray-400 md:py-10 md:px-20 bg-black/70">
+    <footer className="mt-10 text-gray-400 md:py-10 md:px-20 bg-black/70">
       <main className="flex flex-col gap-5 pb-10 mx-8 border-b-2 md:mx-0 md:flex-row">
         <div className="flex-1 p-4 md:pb-0">
           <a href="/">

@@ -62,13 +62,13 @@ const Scholarship = () => {
         <div className="inline-flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-linear-to-br from-blue-500 to-purple-500">
           <GraduationCap size={32} />
         </div>
-        <h1 className="text-5xl font-bold">Scholarship Programs</h1>
-        <p className="mb-10 text-xl text-center text-gray-400 md:w-2/3">
+        <h1 className="text-4xl font-bold text-center lg:text-5xl">Scholarship Programs</h1>
+        <p className="w-5/6 mb-10 text-xl text-justify text-gray-400 md:w-2/3">
           We believe education should be accessible to everyone. Apply for our
           scholarship programs and get financial support for your learning
           journey.
         </p>
-        <main className="flex w-4/5 gap-4">
+        <main className="flex flex-col w-5/6 gap-4 md:w-4/5 lg:flex-row">
           {scholarships.map((items, index) => (
             <div
               key={index}
@@ -81,9 +81,9 @@ const Scholarship = () => {
                 <span className="text-2xl font-semibold">{items.title}</span>
               </div>
               <p className="text-sm text-gray-500">{items.subtitle}</p>
-              <div className="flex items-center gap-1 my-3">
-                <span className="text-3xl font-bold">{items.coverage}</span>
-                <span className="text-gray-400">{items.coverageP}</span>
+              <div className="flex items-center gap-2 my-3">
+                <span className="text-xl font-bold md:text-3xl">{items.coverage}</span>
+                <span className="text-sm text-gray-400">{items.coverageP}</span>
               </div>
               <div>
                 <p className="mb-2">Eligibility Criteria:</p>
@@ -109,12 +109,12 @@ const Scholarship = () => {
 
       <div className="flex flex-col w-4/5 gap-4 p-8 mx-auto text-center border bg-linear-to-r from-blue-600/20 to-purple-600/20 border-blue-500/30 rounded-2xl opacity-80">
         <span>Application Process</span>
-        <p className="w-1/2 mx-auto text-sm tracking-wide text-gray-400">
+        <p className="mx-auto text-sm tracking-wide text-justify text-gray-400 md:w-2/3 lg:w-1/2">
           Applications are reviewed on a rolling basis. Submit your application
           along with required documents, and our scholarship committee will
           review within 2 weeks. Selected candidates will be notified via email.
         </p>
-        <ul className="flex gap-3 mx-auto text-sm text-gray-400">
+        <ul className="flex flex-col gap-3 mx-auto text-sm text-gray-400 md:flex-row">
           <li>• Application Deadline: Rolling</li>
           <li>• Review Period: 2 weeks</li>
           <li>• Award Notification: Email</li>

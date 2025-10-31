@@ -1,5 +1,6 @@
 import { Book, Globe, Headphones, Medal, TrendingUp, Zap } from "lucide-react";
 import React from "react";
+import { FaQuestion } from "react-icons/fa";
 
 const cards = [
   {
@@ -44,23 +45,30 @@ const cards = [
 
 const WhyUs = () => {
   return (
-    <section className="flex flex-col items-center w-full h-full gap-5 py-10">
-      <h1 className="text-5xl font-bold">Why Choose Us?</h1>
-      <p className="mb-5 text-xl text-gray-400">
+    <section className="flex flex-col w-full h-full gap-5 py-10 lg:items-center">
+      <h1 className="flex ml-8 text-4xl font-bold lg:text-5xl">
+        Why Choose Us <FaQuestion fill="magenta" />
+      </h1>
+      <p className="mb-5 ml-8 text-xl text-gray-400">
         Everything you need to succeed in your tech career
       </p>
       {/* Cards Grid */}
       <div className="grid grid-cols-1 gap-8 px-4 lg:w-4/5 md:grid-cols-2 lg:grid-cols-3">
         {/* cards */}
         {cards.map((items, index) => (
-          <div key={index} className="flex flex-col gap-3 p-8 bg-white/5 rounded-2xl">
-            <span className="flex items-center gap-2 lg:gap-0 lg:flex-col md:items-start">
+          <div
+            key={index}
+            className="flex flex-col gap-3 p-8 bg-white/5 rounded-2xl"
+          >
+            <span className="flex items-center gap-6 lg:mb-2">
               <span className="p-4 mb-2 bg-white/10 w-fit rounded-xl">
                 <items.icon size={36} className={items.color} />
               </span>
-              <h1 className="text-2xl font-semibold">{items.title}</h1>
+              <h1 className="text-xl font-semibold lg:text-2xl">
+                {items.title}
+              </h1>
             </span>
-            <p className="text-lg leading-6 text-gray-400">
+            <p className="text-lg leading-6 text-justify text-gray-400">
               {items.description}
             </p>
           </div>
