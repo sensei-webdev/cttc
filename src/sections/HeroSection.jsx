@@ -45,11 +45,11 @@ const HeroSection = () => {
         ))}
       </div>
 
-      <h1 className="mx-auto text-3xl font-semibold leading-snug text-center">
+      <h1 className="mx-auto text-3xl font-semibold leading-snug text-center lg:text-5xl md:text-4xl">
         Welcome to CT Training Centre
       </h1>
 
-      <h3 className="mx-auto text-xl text-center text-gray-400 md:text-2xl">
+      <h3 className="mx-auto text-[1rem] md:text-xl text-center text-gray-400 lg:text-2xl">
         Pakur ka Apna Computer प्रशिक्षण केंद्र <br /> Sikho aur aage badho
       </h3>
 
@@ -63,9 +63,9 @@ const HeroSection = () => {
                 </NavLink>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-2 mx-auto mt-4 w-fit md:gap-12">
+            <div className="flex flex-wrap justify-center w-4/5 gap-4 mx-auto mt-4 sm:gap-2 sm:w-fit md:gap-12">
               {cards.map((item, index) => (
-                <span key={index} className="flex flex-col gap-2 justify-center items-center rounded-xl px-10 py-6 min-w-32 bg-[rgba(255,255,255,0.1)] backdrop-blur-2xl">
+                <span key={index} className="flex flex-col items-center justify-center gap-2 px-5 py-2 bg-white/10 rounded-xl sm:px-10 sm:py-6 sm:min-w-32 backdrop-blur-2xl">
                   <item.Icon size={36} className={item.color} />
                   <h1 className="text-2xl font-bold">{item.h1}</h1>
                   <p>{item.p}</p>
