@@ -50,14 +50,15 @@ const courses = [
 
 const FeatureSection = () => {
   return (
-    <section className="w-full h-full px-6 py-10 mx-auto space-y-5 bg-black/20">
+    <section className="flex flex-col w-full h-full px-6 py-10 mx-auto space-y-5 bg-black/20">
       <h1 className="text-3xl font-bold lg:text-5xl">Popular Courses</h1>
       <p className="mb-5 text-xl text-gray-400">
         Start your journey with our most popular programs
       </p>
 
       {/* Container */}
-      <Swiper
+      <main>
+        <Swiper
       modules={[FreeMode]}
         spaceBetween={1}
         slidesPerView={1.2}
@@ -93,10 +94,11 @@ const FeatureSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      </main>
 
       <NavLink
         to="/courses"
-        className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white transition-all duration-300 rounded-full bg-linear-to-r from-blue-600 to-purple-600 hover:scale-105 active:scale-90"
+        className="inline-flex items-center px-8 py-4 mx-auto text-lg font-semibold text-white transition-all duration-300 rounded-full bg-linear-to-r from-blue-600 to-purple-600 hover:scale-105 active:scale-90"
       >
         Browse All Courses
       </NavLink>
