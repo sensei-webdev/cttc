@@ -1,5 +1,18 @@
+import {
+  BookOpenCheck,
+  Briefcase,
+  Palette,
+  School,
+  Scissors,
+  Sparkles,
+  WalletMinimal,
+  Wrench,
+} from "lucide-react";
+
 const multiCourses = [
   {
+    icon: BookOpenCheck,
+    style: "text-green-400",
     category: "Basics for Beginners",
     courses: [
       {
@@ -77,6 +90,8 @@ const multiCourses = [
     ],
   },
   {
+    icon: WalletMinimal,
+    style: "text-blue-400",
     category: "Accounting & Finance",
     courses: [
       {
@@ -154,6 +169,8 @@ const multiCourses = [
     ],
   },
   {
+    icon: Palette,
+    style: "text-pink-400",
     category: "Creative & Multimedia",
     courses: [
       {
@@ -231,6 +248,8 @@ const multiCourses = [
     ],
   },
   {
+    icon: Wrench,
+    style: "text-blue-400",
     category: "Technician",
     courses: [
       {
@@ -307,6 +326,8 @@ const multiCourses = [
     ],
   },
   {
+    icon: Briefcase,
+    style: "text-blue-400",
     category: "Business Management",
     courses: [
       {
@@ -384,6 +405,8 @@ const multiCourses = [
     ],
   },
   {
+    icon: School,
+    style: "text-blue-400",
     category: "Education Training",
     courses: [
       {
@@ -461,6 +484,8 @@ const multiCourses = [
     ],
   },
   {
+    icon: Sparkles,
+    style: "text-blue-400",
     category: "Beautician",
     courses: [
       {
@@ -538,6 +563,8 @@ const multiCourses = [
     ],
   },
   {
+    icon: Scissors,
+    style: "text-blue-400",
     category: "Tailoring",
     courses: [
       {

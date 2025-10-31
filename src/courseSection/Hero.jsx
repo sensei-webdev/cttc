@@ -56,8 +56,8 @@ const linkCards = [
 
 const Hero = () => {
   return (
-    <section className="w-4/5 p-12 mx-auto mt-10 border-2 rounded-2xl">
-      <h1 className="bg-[#111427] relative w-fit px-10 mx-auto text-3xl font-medium text-center -top-17">
+    <section className="w-4/5 px-4 py-2 mx-auto mt-10 border-2 md:p-12 rounded-2xl">
+      <h1 className="bg-[#111427] relative px-8 min-[453px]:-top-6 -top-8 w-fit md:px-10 mx-auto md:text-3xl font-medium text-center  md:-top-17">
         Explore courses by job-functions
       </h1>
       <Swiper
@@ -66,11 +66,11 @@ const Hero = () => {
         freeMode={true}
          breakpoints={{
           640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 3,
+            spaceBetween: 30,
           },
           768: {
-            slidesPerView: 4,
+            slidesPerView: 3.5,
             spaceBetween: 40,
           },
           1024: {
@@ -87,7 +87,7 @@ const Hero = () => {
                 alt="image"
                 className="mx-auto w-52 rounded-2xl"
               />
-              <span className="flex items-center justify-center py-1.5">
+              <span className="flex items-center justify-center text-center py-1.5">
                 {items.title}
               </span>
             </Link>

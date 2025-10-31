@@ -1,12 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { ImWhatsapp } from "react-icons/im";
 import React from "react";
 
@@ -62,22 +56,21 @@ const footerLinks = [
   { icon: <FaInstagram size={24} />, color: "hover:text-pink-500", link: "#" },
   { icon: <FaTwitter size={24} />, color: "hover:text-blue-400", link: "#" },
   { icon: <FaYoutube size={24} />, color: "hover:text-red-500", link: "#" },
-  { icon: <FaLinkedinIn size={24} />, color: "hover:text-blue-400", link: "#" },
   { icon: <ImWhatsapp size={24} />, color: "hover:text-green-400", link: "#" },
 ];
 
 const Footer = () => {
   return (
-    <footer className="px-20 py-10 text-gray-400 bg-black/70">
-      <main className="flex pb-10 border-b-2">
-        <div className="flex-1">
+    <footer className="text-gray-400 md:py-10 md:px-20 bg-black/70">
+      <main className="flex flex-col gap-5 pb-10 mx-8 border-b-2 md:mx-0 md:flex-row">
+        <div className="flex-1 p-4 md:pb-0">
           <a href="/">
             <img
               src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
               alt="CT Training Centre"
             />
           </a>
-          <p className="w-5/6 my-4">
+          <p className="my-4 max-[350px]:text-xs md:w-5/6">
             Empowering the next generation of tech professionals through
             world-class education and mentorship.
           </p>
@@ -92,11 +85,11 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={20} />
-              Bank Colony, Pakur (Jh), 816107
+              Bank Colony, Pakur (816107)
             </li>
           </ul>
         </div>
-        <div className="grid grid-cols-4 justify-evenly flex-2">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-4 md:grid-cols-4 md:justify-evenly flex-2">
           {navigationLinks.map((menu, index) => (
             <div key={index} className="flex flex-col">
               <span className="mb-2.5 text-lg text-white">{menu.title}</span>
@@ -113,7 +106,7 @@ const Footer = () => {
           ))}
         </div>
       </main>
-      <div className="flex justify-between pt-10">
+      <div className="flex flex-col items-center gap-6 pt-10 text-center md:justify-between md:gap-0 md:flex-row">
         <p>© 2025 CT Training Centre. All rights reserved.</p>
         <span>
           Developed by
@@ -125,7 +118,7 @@ const Footer = () => {
           </Link>
           with ❤️
         </span>
-        <nav className="flex gap-5">
+        <nav className="flex flex-wrap gap-5 pb-10 md:flex-nowrap md:pb-0">
           {footerLinks.map((items, index) => (
             <div
               key={index}
