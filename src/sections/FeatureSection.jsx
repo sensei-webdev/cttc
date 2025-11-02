@@ -51,8 +51,8 @@ const courses = [
 const FeatureSection = () => {
   return (
     <section className="flex flex-col w-full h-full px-6 py-10 mx-auto space-y-5 bg-black/20">
-      <h1 className="text-3xl font-bold lg:text-5xl">Popular Courses</h1>
-      <p className="mb-5 text-xl text-gray-400">
+      <h1 className="w-full text-3xl font-bold text-center lg:text-5xl">Popular Courses</h1>
+      <p className="mb-5 text-xl text-center text-gray-400 wfull">
         Start your journey with our most popular programs
       </p>
 

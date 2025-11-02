@@ -96,7 +96,7 @@ const multiCourses = [
     courses: [
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd8_wfmjof.webp",
+          "https://plus.unsplash.com/premium_photo-1661693617702-6ded7421dfad?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFjY291bnRpbmclMjBwcmluY2lwbGVzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Financial Accounting Principles",
         description:
           "Dive into bookkeeping, balance sheets, and income statements for business owners.",
@@ -108,7 +108,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd8_wfmjof.webp",
+          "https://images.unsplash.com/photo-1685038955804-3de172e7ff35?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbmFsJTIwZmluYW5jZSUyMG1hc3Rlcnl8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Personal Finance Mastery",
         description:
           "Learn budgeting, saving, investing basics, and debt management for everyday life.",
@@ -120,7 +120,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd8_wfmjof.webp",
+          "https://plus.unsplash.com/premium_photo-1661661363573-f3f537e766fa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG1hbmFnZXJpYWwlMjBhY2NvdW50aW5nfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Managerial Accounting",
         description:
           "Explore cost analysis and decision-making tools for managers.",
@@ -132,7 +132,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd8_wfmjof.webp",
+          "https://plus.unsplash.com/premium_photo-1742902896890-ad9449aae2dc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGludmVzdGluZ3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Introduction to Investing",
         description:
           "Understand stocks, bonds, and ETFs to start building your portfolio.",
@@ -144,7 +144,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd8_wfmjof.webp",
+          "https://images.unsplash.com/photo-1554224155-3a58922a22c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRheHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Tax Preparation Basics",
         description:
           "Get up to speed on filing taxes, deductions, and compliance for individuals.",
@@ -156,7 +156,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd8_wfmjof.webp",
+          "https://file.eloquens.com/media/thumb/0/93/93301_1_768.png",
         courseName: "Financial Modeling with Excel",
         description:
           "Build models for forecasting and valuation using advanced Excel techniques.",
@@ -175,7 +175,7 @@ const multiCourses = [
     courses: [
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700172/cd9_xujzuv.webp",
+          "https://plus.unsplash.com/premium_photo-1661313635217-d8d87c14fb66?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhcGhpYyUyMGRlc2lnbiUyMGZ1bmRlbWVudGFsc3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Graphic Design Fundamentals",
         description:
           "Create stunning visuals with Adobe Photoshop and Illustrator for beginners.",
@@ -187,7 +187,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700172/cd9_xujzuv.webp",
+          "https://images.unsplash.com/photo-1682506457554-b34c9682e985?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmlkZW8lMjBlZGl0aW5nJTIwbWFzdGVyeXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Video Editing Mastery",
         description:
           "Edit professional videos using Premiere Pro, from cuts to effects.",
@@ -199,7 +199,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700172/cd9_xujzuv.webp",
+          "https://images.unsplash.com/photo-1650421120432-178ec62cd849?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGlnaXRhbCUyMHBob3RvZ3JhcGh5JTIwYmFzaWNzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Digital Photography Basics",
         description:
           "Capture and edit photos with your camera or phone for creative storytelling.",
@@ -211,7 +211,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700172/cd9_xujzuv.webp",
+          "https://images.unsplash.com/photo-1527786560821-46037fab26b3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWZ0ZXIlMjBlZmZlY3RzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Animation with After Effects",
         description:
           "Animate logos, text, and characters for motion graphics projects.",
@@ -223,7 +223,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700172/cd9_xujzuv.webp",
+          "https://plus.unsplash.com/premium_photo-1661678097146-997ef05ba6a6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXVkaW8lMjBwcm9kdWN0aW9ufGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Audio Production Essentials",
         description:
           "Record, mix, and master podcasts or music tracks using Audacity and Logic Pro.",
@@ -235,7 +235,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700172/cd9_xujzuv.webp",
+          "https://plus.unsplash.com/premium_photo-1661326248013-3107a4b2bd91?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjB1eHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "UI/UX Design Principles",
         description:
           "Design user-friendly interfaces for apps and websites with Figma.",
@@ -254,7 +254,7 @@ const multiCourses = [
     courses: [
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd4_bz0gkn.webp",
+          "https://plus.unsplash.com/premium_photo-1682086494838-6410429123a6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGVsZWN0cmljYWwlMjB3aXJpbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Basic Electrical Wiring",
         description:
           "Learn safe installation and troubleshooting of home electrical systems.",
@@ -266,7 +266,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd4_bz0gkn.webp",
+          "https://images.unsplash.com/photo-1560700105-7a3450fd2531?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGh2YWN8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "HVAC Repair Fundamentals",
         description:
           "Understand heating, ventilation, and AC systems for entry-level techs.",
@@ -278,7 +278,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd4_bz0gkn.webp",
+          "https://plus.unsplash.com/premium_photo-1661723379706-598b81f31652?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXV0b21vdGl2ZSUyMGRpYWdub3N0aWN8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Automotive Diagnostics",
         description:
           "Use tools to identify and fix common car engine and electrical issues.",
@@ -290,7 +290,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd4_bz0gkn.webp",
+          "https://images.unsplash.com/photo-1563770660941-20978e870e26?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXIlMjBoYXJkd2FyZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Plumbing Essentials",
         description:
           "Master pipe fitting, leak repairs, and basic installations.",
@@ -302,7 +302,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd4_bz0gkn.webp",
+          "https://images.unsplash.com/photo-1563770660941-20978e870e26?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXIlMjBoYXJkd2FyZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Computer Hardware Repair",
         description: "Assemble, troubleshoot, and upgrade PCs and laptops.",
         duration: 5,
@@ -313,7 +313,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd4_bz0gkn.webp",
+          "https://plus.unsplash.com/premium_photo-1661326248013-3107a4b2bd91?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjB1eHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Welding Techniques for Beginners",
         description:
           "Learn MIG and TIG welding for metal fabrication projects.",
@@ -332,7 +332,7 @@ const multiCourses = [
     courses: [
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd2_xiqcsi.webp",
+          "https://plus.unsplash.com/premium_photo-1723579262605-bea45b9f5e1b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YnVzaW5lc3MlMjBwbGFuaW5nfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Strategic Business Planning",
         description:
           "Develop long-term goals, SWOT analysis, and execution strategies.",
@@ -344,7 +344,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd2_xiqcsi.webp",
+          "https://plus.unsplash.com/premium_photo-1664474657823-328705da2bbf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxlYWRlcnNoaXB8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Leadership and Team Building",
         description:
           "Enhance skills in motivating teams, conflict resolution, and delegation.",
@@ -356,7 +356,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd2_xiqcsi.webp",
+          "https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvamVjdCUyMG1hbmFnZW1lbnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Project Management Basics",
         description:
           "Use Agile and Scrum to plan, track, and deliver projects on time.",
@@ -368,7 +368,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd2_xiqcsi.webp",
+          "https://plus.unsplash.com/premium_photo-1661284857549-21bba6eda0b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHNtYWxsJTIwYnVzaW5lc3MlMjBtYXJrZXRpbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Marketing for Small Businesses",
         description:
           "Create effective campaigns using social media and email strategies.",
@@ -380,7 +380,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd2_xiqcsi.webp",
+          "https://plus.unsplash.com/premium_photo-1682129536759-7bc426c129ac?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b3BlcmF0aW9ucyUyMG1hbmFnZW1lbnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Operations Management",
         description:
           "Optimize processes, supply chains, and efficiency in daily operations.",
@@ -392,7 +392,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd2_xiqcsi.webp",
+          "https://images.unsplash.com/photo-1555859230-93d6c47fe787?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZW50ZXJwcmVuZXVyc2hpcCUyMGVzc2VudGlhbHN8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Entrepreneurship Essentials",
         description:
           "From idea validation to launching your startup successfully.",
@@ -411,7 +411,7 @@ const multiCourses = [
     courses: [
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd6_wogf8p.webp",
+          "https://images.unsplash.com/photo-1555859230-93d6c47fe787?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZW50ZXJwcmVuZXVyc2hpcCUyMGVzc2VudGlhbHN8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Teaching Methods for K-12",
         description:
           "Explore interactive lesson plans, classroom management, and student engagement.",
@@ -423,7 +423,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd6_wogf8p.webp",
+          "https://plus.unsplash.com/premium_photo-1666299729298-c45849643135?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Online Course Creation",
         description:
           "Design and deliver engaging e-learning content using platforms like Moodle.",
@@ -435,7 +435,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd6_wogf8p.webp",
+          "https://plus.unsplash.com/premium_photo-1661324498792-0fe8977062b7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3VycmljdWx1bXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Curriculum Development",
         description:
           "Build effective syllabi aligned with learning objectives and assessments.",
@@ -447,7 +447,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd6_wogf8p.webp",
+          "https://plus.unsplash.com/premium_photo-1661324498792-0fe8977062b7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3VycmljdWx1bXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Special Education Strategies",
         description:
           "Support diverse learners with IEPs and inclusive teaching techniques.",
@@ -459,7 +459,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd6_wogf8p.webp",
+          "https://images.unsplash.com/photo-1627691329038-1f850597fd26?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVkdWNhdGlvbmFsJTIwdGVjaG5vbG9neSUyMHRvb2xzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Educational Technology Tools",
         description:
           "Integrate apps, VR, and AI into modern classrooms for better outcomes.",
@@ -471,7 +471,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761700173/cd6_wogf8p.webp",
+          "https://plus.unsplash.com/premium_photo-1664304019469-42280c6aaedb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWR1bHQlMjBsZWFybmluZyUyMGFuZCUyMHRyYWluaW5nfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Adult Learning and Training",
         description:
           "Facilitate workshops and corporate training with andragogy principles.",
@@ -490,7 +490,7 @@ const multiCourses = [
     courses: [
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709023/af3261eb-1e76-4128-a7ba-a69d43febc62_lmxnya.png",
+          "https://images.unsplash.com/photo-1520173043194-dc6b2a237fee?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFrZXVwJTIwYXJ0aXN0JTIwYmFzaWNzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Makeup Artistry Basics",
         description:
           "Master foundation, contouring, and bridal looks with professional techniques.",
@@ -502,7 +502,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709023/af3261eb-1e76-4128-a7ba-a69d43febc62_lmxnya.png",
+          "https://images.unsplash.com/photo-1728949202477-bad2935775cb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpbmNhcmUlMjBhbmQlMjBmYWNpYWwlMjB0cmVhdG1lbnRzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Skincare and Facial Treatments",
         description:
           "Learn cleansing routines, masks, and anti-aging therapies for glowing skin.",
@@ -514,7 +514,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709023/af3261eb-1e76-4128-a7ba-a69d43febc62_lmxnya.png",
+          "https://images.unsplash.com/photo-1625038032200-648fbcd800d0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGFpcnN0eWxpbmclMjBlc3NlbnRpYWxzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600png",
         courseName: "Hair Styling Essentials",
         description:
           "From cuts and colors to updos for everyday and event styling.",
@@ -526,7 +526,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709023/af3261eb-1e76-4128-a7ba-a69d43febc62_lmxnya.png",
+          "https://images.unsplash.com/photo-1625038032200-648fbcd800d0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGFpcnN0eWxpbmclMjBlc3NlbnRpYWxzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Nail Art and Manicure",
         description:
           "Design intricate nails, gel applications, and pedicure services.",
@@ -538,7 +538,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709023/af3261eb-1e76-4128-a7ba-a69d43febc62_lmxnya.png",
+          "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Fsb29ufGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Salon Business Management",
         description:
           "Run your beauty business, from client booking to marketing.",
@@ -550,7 +550,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709023/af3261eb-1e76-4128-a7ba-a69d43febc62_lmxnya.png",
+          "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BhfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Advanced Esthetics",
         description:
           "Explore waxing, threading, and body treatments for full spa services.",
@@ -569,7 +569,7 @@ const multiCourses = [
     courses: [
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709393/tailoring_qqubeo.png",
+          "https://images.unsplash.com/photo-1635790073975-ac99496914e3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2V3aW5nJTIwcGF0dGVybiUyMG1ha2luZ3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Pattern Making Fundamentals",
         description:
           "Create custom patterns for dresses, shirts, and pants from measurements.",
@@ -581,7 +581,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709393/tailoring_qqubeo.png",
+          "https://images.unsplash.com/photo-1533758488827-1ed0f9b03899?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2V3aW5nJTIwbWFjaGluZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Sewing Machine Mastery",
         description:
           "Operate machines for straight seams, hems, and alterations efficiently.",
@@ -593,7 +593,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709393/tailoring_qqubeo.png",
+          "https://images.unsplash.com/photo-1533758488827-1ed0f9b03899?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2V3aW5nJTIwbWFjaGluZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Dressmaking Techniques",
         description:
           "Construct full garments with zippers, collars, and linings.",
@@ -605,7 +605,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709393/tailoring_qqubeo.png",
+          "https://plus.unsplash.com/premium_photo-1677695581031-504f432621f0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFicmljJTIwc2VsbGVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         courseName: "Fabric Selection and Care",
         description:
           "Choose materials, understand weaves, and maintain finished pieces.",
@@ -617,7 +617,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709393/tailoring_qqubeo.png",
+          "https://plus.unsplash.com/premium_photo-1673535091134-c68006e40d3a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2V3aW5nJTIwYWx0ZXJhdGlvbnN8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Custom Alterations",
         description:
           "Fit and modify ready-to-wear clothes for perfect tailoring.",
@@ -629,7 +629,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://res.cloudinary.com/dttah6xlw/image/upload/v1761709393/tailoring_qqubeo.png",
+          "https://images.unsplash.com/photo-1580657018950-c7f7d6a6d990?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1aXQlMjBkZXNpZ25pbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Advanced Couture Design",
         description:
           "Design bespoke outfits with embroidery and sustainable practices.",
