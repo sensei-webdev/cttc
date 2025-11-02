@@ -593,7 +593,7 @@ const multiCourses = [
       },
       {
         image:
-          "https://images.unsplash.com/photo-1533758488827-1ed0f9b03899?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2V3aW5nJTIwbWFjaGluZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
+          "https://plus.unsplash.com/premium_photo-1676586309272-a71efe476d4b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZHJlc3MlMjBtYWtpbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&q=60&w=600",
         courseName: "Dressmaking Techniques",
         description:
           "Construct full garments with zippers, collars, and linings.",
