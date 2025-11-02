@@ -11,7 +11,7 @@ const CourseSection = () => {
   return (
     <main className="px-6 mx-auto space-y-8 md:px-8 lg:px-0 lg:w-4/5">
       {courseBundle.map((items, index) => (
-        <section key={index}>
+        <section key={index} id={items.id} >
           <div className="flex items-center gap-2 pb-6 mt-10">
             <items.icon size={32} className={items.style} />
             <h1 className="text-xl font-semibold md:text-2xl lg:text-4xl">

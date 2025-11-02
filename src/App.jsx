@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
+import GoToTopButton from "./components/GoToTopButton"
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
 import Blog from "./pages/Blog";
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <GoToTopButton/>
     </main>
   );
 };

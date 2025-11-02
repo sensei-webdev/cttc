@@ -108,17 +108,7 @@ const Footer = () => {
       </main>
       <div className="flex flex-col items-center gap-6 pt-10 text-center md:justify-between md:gap-0 md:flex-row">
         <p>© 2025 CT Training Centre. All rights reserved.</p>
-        <span>
-          Developed by
-          <Link
-            to="https://www.imabubakar.xyz"
-            className="mx-3 font-medium duration-300 ease-in-out text-amber-400 hover:tracking-widest"
-          >
-            Abu Bakar
-          </Link>
-          with ❤️
-        </span>
-        <nav className="flex flex-wrap gap-5 pb-10 md:flex-nowrap md:pb-0">
+        <nav className="flex flex-wrap gap-5 md:flex-nowrap md:pb-0">
           {footerLinks.map((items, index) => (
             <div
               key={index}
@@ -130,6 +120,16 @@ const Footer = () => {
             </div>
           ))}
         </nav>
+        <span className="pb-10 md:pb-0">
+          Developed by
+          <Link
+            to="https://www.imabubakar.xyz"
+            className="mx-3 font-medium duration-300 ease-in-out text-amber-400 hover:tracking-widest"
+          >
+            Abu Bakar
+          </Link>
+          with ❤️
+        </span>
       </div>
     </footer>
   );

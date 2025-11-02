@@ -4,7 +4,7 @@ import { Clock4, IndianRupee, Star, Users } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import CourseCard from "../components/CourseCard";
 import { FreeMode } from "swiper/modules";
-
+import { HashLink } from "react-router-hash-link";
 
 import "swiper/css";
 
@@ -51,7 +51,9 @@ const courses = [
 const FeatureSection = () => {
   return (
     <section className="flex flex-col w-full h-full px-6 py-10 mx-auto space-y-5 bg-black/20">
-      <h1 className="w-full text-3xl font-bold text-center lg:text-5xl">Popular Courses</h1>
+      <h1 className="w-full text-3xl font-bold text-center lg:text-5xl">
+        Popular Courses
+      </h1>
       <p className="mb-5 text-xl text-center text-gray-400 wfull">
         Start your journey with our most popular programs
       </p>
@@ -59,49 +61,49 @@ const FeatureSection = () => {
       {/* Container */}
       <main>
         <Swiper
-      modules={[FreeMode]}
-        spaceBetween={1}
-        slidesPerView={1.2}
-        freeMode={true}
-        scrollbar={{ draggable: true, hide: false }}
-        breakpoints={{
-          360: {
-            slidesPerView: 1.2,
-            spaceBetween: 5,
-          },
-          640: {
-            slidesPerView: 1.4,
-            spaceBetween: 5,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 5,
-          },
-          1024: {
-            slidesPerView: 2.2,
-            spaceBetween: 20,
-          },
-          1440: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
-        }}
-      >
-        {/* Cards */}
-        {courses.map((items, index) => (
-          <SwiperSlide key={index}>
-            <CourseCard {...items} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+          modules={[FreeMode]}
+          spaceBetween={1}
+          slidesPerView={1.2}
+          freeMode={true}
+          scrollbar={{ draggable: true, hide: false }}
+          breakpoints={{
+            360: {
+              slidesPerView: 1.2,
+              spaceBetween: 5,
+            },
+            640: {
+              slidesPerView: 1.4,
+              spaceBetween: 5,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 5,
+            },
+            1024: {
+              slidesPerView: 2.2,
+              spaceBetween: 20,
+            },
+            1440: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          }}
+        >
+          {/* Cards */}
+          {courses.map((items, index) => (
+            <SwiperSlide key={index}>
+              <CourseCard {...items} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </main>
 
-      <NavLink
-        to="/courses"
+      <HashLink
+       smooth to="/courses#hero"
         className="inline-flex items-center px-8 py-4 mx-auto text-lg font-semibold text-white transition-all duration-300 rounded-full bg-linear-to-r from-blue-600 to-purple-600 hover:scale-105 active:scale-90"
       >
         Browse All Courses
-      </NavLink>
+      </HashLink>
     </section>
   );
 };

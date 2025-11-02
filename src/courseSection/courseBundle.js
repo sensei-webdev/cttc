@@ -11,6 +11,7 @@ import {
 
 const multiCourses = [
   {
+    id: "basicsForBeginners",
     icon: BookOpenCheck,
     style: "text-green-400",
     category: "Basics for Beginners",
@@ -90,6 +91,7 @@ const multiCourses = [
     ],
   },
   {
+    id: "accountingNfinance",
     icon: WalletMinimal,
     style: "text-amber-500",
     category: "Accounting & Finance",
@@ -155,8 +157,7 @@ const multiCourses = [
         price: "5,999",
       },
       {
-        image:
-          "https://file.eloquens.com/media/thumb/0/93/93301_1_768.png",
+        image: "https://file.eloquens.com/media/thumb/0/93/93301_1_768.png",
         courseName: "Financial Modeling with Excel",
         description:
           "Build models for forecasting and valuation using advanced Excel techniques.",
@@ -169,6 +170,7 @@ const multiCourses = [
     ],
   },
   {
+    id: "creativeNmultimedia",
     icon: Palette,
     style: "text-fuchsia-500",
     category: "Creative & Multimedia",
@@ -248,6 +250,7 @@ const multiCourses = [
     ],
   },
   {
+    id: "technician",
     icon: Wrench,
     style: "text-cyan-500",
     category: "Technician",
@@ -326,6 +329,7 @@ const multiCourses = [
     ],
   },
   {
+    id: "businessManagement",
     icon: Briefcase,
     style: "text-indigo-400",
     category: "Business Management",
@@ -405,6 +409,7 @@ const multiCourses = [
     ],
   },
   {
+    id: "educationTraining",
     icon: School,
     style: "text-blue-400",
     category: "Education Training",
@@ -484,6 +489,7 @@ const multiCourses = [
     ],
   },
   {
+    id: "beautician",
     icon: Sparkles,
     style: "text-rose-400",
     category: "Beautician",
@@ -563,6 +569,7 @@ const multiCourses = [
     ],
   },
   {
+    id: "tailoring",
     icon: Scissors,
     style: "text-emerald-400",
     category: "Tailoring",
