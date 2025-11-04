@@ -54,7 +54,7 @@ const Header = () => {
 
       {/* Overlay + Animated Menu */}
       <div
-        className={`absolute top-16 left-0 w-full h-screen bg-black/70 backdrop-blur-sm flex flex-col items-end z-40 transition-all duration-300 ease-in-out ${
+        className={`absolute top-16 left-0 w-full h-screen bg-black/5 backdrop-blur-xl flex flex-col items-end z-40 transition-all duration-300 ease-in-out ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
@@ -68,8 +68,8 @@ const Header = () => {
 
         {/* Sliding Menu */}
         <div
-          className={`relative z-50 w-3/4 h-full px-10 py-4 bg-black flex flex-col gap-5 text-xl transform transition-transform duration-300 ease-in-out lg:hidden ${
-            isOpen ? "translate-x-0" : "translate-x-full"
+          className={`relative z-50 w-full h-fit px-10 py-4 bg-black flex flex-col gap-5 text-xl transform transition-transform duration-300 ease-in-out lg:hidden ${
+            isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <NavLink to="/" className={linkClasses} onClick={closeMenu}>
