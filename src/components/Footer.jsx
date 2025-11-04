@@ -61,9 +61,9 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <footer className="mt-10 text-gray-400 md:py-10 md:px-20 bg-black/70">
-      <main className="flex flex-col gap-5 pb-10 mx-8 border-b-2 md:mx-0 md:flex-row">
-        <div className="flex-1 p-4 md:pb-0">
+    <footer className="mt-10 text-gray-400 lg:py-10 lg:px-20 bg-black/70">
+      <main className="flex flex-col gap-5 pb-10 mx-8 border-b-2 lg:mx-0 lg:flex-row">
+        <div className="flex-1 p-4 lg:pb-0">
           <a href="/">
             <img
               src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
@@ -89,7 +89,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="grid grid-cols-2 gap-x-8 gap-y-4 md:grid-cols-4 md:justify-evenly flex-2">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-4 md:grid-cols-4 lg:justify-evenly flex-2">
           {navigationLinks.map((menu, index) => (
             <div key={index} className="flex flex-col">
               <span className="mb-2.5 text-lg text-white">{menu.title}</span>
@@ -106,7 +106,7 @@ const Footer = () => {
           ))}
         </div>
       </main>
-      <div className="flex flex-col items-center gap-6 pt-10 text-center md:justify-between md:gap-0 md:flex-row">
+      <div className="flex flex-col items-center gap-6 pt-10 text-center lg:justify-between lg:gap-0 lg:flex-row">
         <p>© 2025 CT Training Centre. All rights reserved.</p>
         <nav className="flex flex-wrap gap-5 md:flex-nowrap md:pb-0">
           {footerLinks.map((items, index) => (
@@ -120,7 +120,7 @@ const Footer = () => {
             </div>
           ))}
         </nav>
-        <span className="pb-10 md:pb-0">
+        <span className="pb-10 lg:pb-0">
           Developed by
           <Link
             to="https://www.imabubakar.xyz"
