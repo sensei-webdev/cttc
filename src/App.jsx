@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <main className="bg-[#111427] text-white overflow-x-hidden">
+    <main className="bg-[#111427] text-white overflow-x-hidden max-w-[1600px] mx-auto">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import HamMenu from "./Menu";
+import { CgProfile } from "react-icons/cg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,41 +15,63 @@ const Header = () => {
       : "relative pb-1 text-white/80 hover:text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full";
 
   return (
-    <header className="relative z-50 flex items-center justify-between h-16 px-5 bg-black/50">
-      {/* Logo */}
-      <NavLink to="/">
-        <img
-          src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
-          alt="CT Training Centre"
-        />
-      </NavLink>
+    <header className="relative z-50 flex items-center justify-between h-16 px-2 md:px-5 bg-black/50">
+      <div className="flex items-center gap-4 lg:gap-16">
+        {/* Mobile Menu Button */}
+        <div className="inline-flex lg:hidden">
+          <div onClick={toggleMenu} className="z-50 rounded-lg">
+            <HamMenu isOpen={isOpen} />
+          </div>
+        </div>
+        {/* Logo */}
+        <NavLink to="/">
+          <img
+            src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
+            alt="CT Training Centre"
+          />
+        </NavLink>
 
-      {/* Desktop Nav */}
-      <nav className="hidden gap-6 font-medium md:flex">
-        <NavLink to="/" className={linkClasses}>
-          Home
-        </NavLink>
-        <NavLink to="/courses" className={linkClasses}>
-          Courses
-        </NavLink>
-        <NavLink to="/blog" className={linkClasses}>
-          Blog
-        </NavLink>
-        <NavLink to="/news" className={linkClasses}>
-          News
-        </NavLink>
-        <NavLink to="/about-us" className={linkClasses}>
-          About Us
-        </NavLink>
-        <NavLink to="/contact" className={linkClasses}>
-          Contact
-        </NavLink>
-      </nav>
+        {/* Desktop Nav */}
+        <nav className="hidden gap-6 font-medium lg:flex">
+          <NavLink to="/" className={linkClasses}>
+            Home
+          </NavLink>
+          <NavLink to="/courses" className={linkClasses}>
+            Courses
+          </NavLink>
+          <NavLink to="/blog" className={linkClasses}>
+            Blog
+          </NavLink>
+          <NavLink to="/news" className={linkClasses}>
+            News
+          </NavLink>
+          <NavLink to="/about-us" className={linkClasses}>
+            About Us
+          </NavLink>
+          <NavLink to="/contact" className={linkClasses}>
+            Contact
+          </NavLink>
+        </nav>
+      </div>
 
-      {/* Mobile Menu Button */}
-      <div className="inline-flex md:hidden">
-        <div onClick={toggleMenu} className="z-50 rounded-lg">
-          <HamMenu isOpen={isOpen} />
+      <div>
+        <Link to="/" className="lg:hidden">
+          <CgProfile size={36} />
+        </Link>
+
+        <div className="hidden space-x-2 lg:block">
+          <Link
+            to="/"
+            className="px-4 py-2 font-medium text-white bg-black border-2 border-white btn rounded-3xl"
+          >
+            Sign in
+          </Link>
+          <Link
+            to="/"
+            className="px-4 py-2 font-medium text-black bg-white border-2 border-white rounded-3xl"
+          >
+            Log in
+          </Link>
         </div>
       </div>
 
