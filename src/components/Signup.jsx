@@ -10,16 +10,16 @@ const Signup = () => {
         <p className="text-gray-300">Sign-in to access resources like <br /> PDFs, e-books, Video Lectures, Notes, etc.</p>
         <div className="flex flex-col justify-center gap-4 sm:flex-row">
           <Link
-            to="https://novel-shad-98.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2F"
+            to="https://accounts.imabubakar.xyz/sign-up"
             className="px-6 py-3 font-medium text-black transition-transform duration-200 transform bg-white rounded-xl hover:scale-105 active:scale-95"
           >
             Sign Up
           </Link>
           <Link
-            to="https://novel-shad-98.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2F"
+            to="https://accounts.imabubakar.xyz/sign-in"
             className="px-6 py-3 font-medium text-white transition-transform duration-200 transform border border-white rounded-xl hover:scale-105 active:scale-95"
           >
-            Login
+            Sign in
           </Link>
         </div>
       </div>
