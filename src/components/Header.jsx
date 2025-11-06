@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import HamMenu from "./Menu";
-import { CgProfile } from "react-icons/cg";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/clerk-react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,6 +44,9 @@ const Header = () => {
           <NavLink to="/courses" className={linkClasses}>
             Courses
           </NavLink>
+          <NavLink to="/resources" className={linkClasses}>
+            Resources
+          </NavLink>
           <NavLink to="/blog" className={linkClasses}>
             Blog
           </NavLink>
@@ -54,25 +62,32 @@ const Header = () => {
         </nav>
       </div>
 
-      <div>
-        <Link to="/" className="lg:hidden">
-          <CgProfile size={36} />
-        </Link>
+      {/* Sign in Desktop */}
+      <div className="hidden space-x-2 lg:block">
+        <SignedOut>
+          <SignInButton>
+            <button className="px-4 py-2 bg-gray-800 border border-white rounded-md">
+              Sign in
+            </button>
+          </SignInButton>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
+      </div>
 
-        <div className="hidden space-x-2 lg:block">
-          <Link
-            to="/"
-            className="px-4 py-2 font-medium text-white bg-black border-2 border-white btn rounded-3xl"
-          >
-            Sign in
-          </Link>
-          <Link
-            to="/"
-            className="px-4 py-2 font-medium text-black bg-white border-2 border-white rounded-3xl"
-          >
-            Log in
-          </Link>
-        </div>
+      {/* Sign in Mobile */}
+      <div className="space-x-2 lg:hidden">
+        <SignedOut>
+          <SignInButton>
+            <button className="px-4 py-2 bg-gray-800 border border-white rounded-md">
+              Sign in
+            </button>
+          </SignInButton>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
       </div>
 
       {/* Overlay + Animated Menu */}
@@ -100,6 +115,9 @@ const Header = () => {
           </NavLink>
           <NavLink to="/courses" className={linkClasses} onClick={closeMenu}>
             Courses
+          </NavLink>
+          <NavLink to="/resources" className={linkClasses} onClick={closeMenu}>
+            Resources
           </NavLink>
           <NavLink to="/blog" className={linkClasses} onClick={closeMenu}>
             Blog

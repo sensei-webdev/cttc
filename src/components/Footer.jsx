@@ -61,7 +61,7 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <footer className="mt-10 text-gray-400 lg:py-10 lg:px-20 bg-black/70">
+    <footer className="mt-10 text-gray-400 lg:py-10 lg:px-12 bg-black/70">
       <main className="flex flex-col gap-5 pb-10 mx-8 border-b-2 lg:mx-0 lg:flex-row">
         <div className="flex-1 p-4 lg:pb-0">
           <a href="/">
@@ -107,8 +107,8 @@ const Footer = () => {
         </div>
       </main>
       <div className="flex flex-col items-center gap-6 pt-10 text-center lg:justify-between lg:gap-0 lg:flex-row">
-        <p>© 2025 CT Training Centre. All rights reserved.</p>
-        <nav className="flex flex-wrap gap-5 md:flex-nowrap md:pb-0">
+        <p className="flex-1">© 2025 CT Training Centre. All rights reserved.</p>
+        <nav className="flex flex-wrap flex-1 gap-5 md:justify-evenly md:pb-0">
           {footerLinks.map((items, index) => (
             <div
               key={index}
@@ -120,7 +120,7 @@ const Footer = () => {
             </div>
           ))}
         </nav>
-        <span className="pb-10 lg:pb-0">
+        <span className="flex-1 pb-10 lg:pb-0">
           Developed by
           <Link
             to="https://www.imabubakar.xyz"

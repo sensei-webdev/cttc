@@ -68,7 +68,7 @@ const Scholarship = () => {
           scholarship programs and get financial support for your learning
           journey.
         </p>
-        <main className="flex flex-col w-5/6 gap-4 md:w-4/5 lg:flex-row">
+        <main className="grid grid-cols-1 gap-4 mx-5 lg:w-5/6 md:grid-cols-2 xl:grid-cols-3">
           {scholarships.map((items, index) => (
             <div
               key={index}
@@ -78,9 +78,9 @@ const Scholarship = () => {
                 <span className={items.style}>
                   <items.Icon size={32} />
                 </span>
-                <span className="text-2xl font-semibold">{items.title}</span>
+                <span className="text-2xl font-semibold line-clamp-1">{items.title}</span>
               </div>
-              <p className="text-sm text-gray-500">{items.subtitle}</p>
+              <p className="text-sm text-gray-500 line-clamp-1">{items.subtitle}</p>
               <div className="flex items-center gap-2 my-3">
                 <span className="text-xl font-bold md:text-3xl">{items.coverage}</span>
                 <span className="text-sm text-gray-400">{items.coverageP}</span>

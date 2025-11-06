@@ -53,7 +53,7 @@ const WhyUs = () => {
         Everything you need to succeed in your tech career
       </p>
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 gap-8 px-4 lg:w-4/5 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8 px-4 lg:w-5/6 xl:w-4/5 md:grid-cols-2 xl:grid-cols-3">
         {/* cards */}
         {cards.map((items, index) => (
           <div

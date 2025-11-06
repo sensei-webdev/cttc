@@ -32,7 +32,7 @@ const Testimonials = () => {
       <p className="mb-8 text-lg text-center text-gray-400 md:text-xl">
         Hear from our graduates who are now thriving in tech
       </p>
-      <div className="flex flex-col justify-between gap-6 px-5 mt-5 lg:flex-row lg:w-4/5">
+      <div className="grid grid-cols-1 gap-4 mx-5 lg:w-5/6 md:grid-cols-2 xl:grid-cols-3">
         {cards.map((items, index) => (
           <div
             key={index}
