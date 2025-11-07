@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import HamMenu from "./Menu";
+import { useUser } from "@clerk/clerk-react";
 import {
   SignedIn,
   SignedOut,
@@ -9,6 +10,7 @@ import {
 } from "@clerk/clerk-react";
 
 const Header = () => {
+    const { user } = useUser();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen((prev) => !prev);
@@ -72,7 +74,8 @@ const Header = () => {
           </SignInButton>
         </SignedOut>
         <SignedIn>
-          <UserButton showname />
+        <span>{user.firstName}</span>
+          <UserButton />
         </SignedIn>
       </div>
 
@@ -85,6 +88,7 @@ const Header = () => {
             </button>
           </SignInButton>
         </SignedOut>
+        <span>{user.firstName}</span>
         <SignedIn>
           <UserButton showName />
         </SignedIn>
