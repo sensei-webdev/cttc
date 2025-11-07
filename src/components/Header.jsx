@@ -72,7 +72,7 @@ const Header = () => {
           </SignInButton>
         </SignedOut>
         <SignedIn>
-          <UserButton />
+          <UserButton showname />
         </SignedIn>
       </div>
 
@@ -86,7 +86,7 @@ const Header = () => {
           </SignInButton>
         </SignedOut>
         <SignedIn>
-          <UserButton />
+          <UserButton showName />
         </SignedIn>
       </div>
 
