@@ -59,7 +59,7 @@ const FeatureSection = () => {
       </p>
 
       {/* Container */}
-      <main>
+      <main className="py-10">
         <Swiper
           modules={[FreeMode]}
           spaceBetween={1}
