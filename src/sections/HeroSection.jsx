@@ -46,11 +46,11 @@ const HeroSection = () => {
       </div>
 
       <h1 className="mx-auto text-3xl font-semibold leading-snug text-center lg:text-5xl md:text-4xl">
-        Welcome to CT Training Centre
+        Welcome to Abu Bakar's Academy of Coding
       </h1>
 
       <h3 className="mx-auto text-[1rem] md:text-xl text-center text-gray-400 lg:text-2xl">
-        Pakur ka Apna Computer प्रशिक्षण केंद्र <br /> Sikho aur aage badho
+        Learn. Build. Innovate <br /> Here logic meets creativity.
       </h3>
 
       <div class="flex flex-col md:flex-row gap-2 md:gap-4 mx-auto">
