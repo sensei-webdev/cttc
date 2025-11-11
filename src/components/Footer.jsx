@@ -66,8 +66,9 @@ const Footer = () => {
         <div className="flex-1 p-4 lg:pb-0">
           <a href="/">
             <img
-              src="https://res.cloudinary.com/dttah6xlw/image/upload/v1761536264/CT_logo_oioga6.svg"
-              alt="CT Training Centre"
+              src="https://res.cloudinary.com/dttah6xlw/image/upload/v1762839659/ABAC005_1_qtqbdd.svg"
+              alt="ABAC"
+              className="bg-cyan-100"
             />
           </a>
           <p className="my-4 max-[350px]:text-xs md:w-5/6">
@@ -77,7 +78,7 @@ const Footer = () => {
           <ul className="space-y-5 text-sm">
             <li className="flex items-center gap-2">
               <Mail size={20} />
-              contact.cttcpkr@gmail.com
+              contact.sensei.ux@gmail.com
             </li>
             <li className="flex items-center gap-2">
               <Phone size={20} />
@@ -85,7 +86,7 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={20} />
-              Bank Colony, Pakur (816107)
+              Kalikapur, Pakur (816107)
             </li>
           </ul>
         </div>
@@ -107,7 +108,9 @@ const Footer = () => {
         </div>
       </main>
       <div className="flex flex-col items-center gap-6 pt-10 text-center lg:justify-between lg:gap-0 lg:flex-row">
-        <p className="flex-1">© 2025 CT Training Centre. All rights reserved.</p>
+        <p className="flex-1">
+          © 2025 ABAC. All rights reserved.
+        </p>
         <nav className="flex flex-wrap flex-1 gap-5 md:justify-evenly md:pb-0">
           {footerLinks.map((items, index) => (
             <div

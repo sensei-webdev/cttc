@@ -73,7 +73,9 @@ const Header = () => {
           </SignInButton>
         </SignedOut>
         <SignedIn>
-          <UserButton />
+          <div className="mt-2 mr-4 origin-center scale-150">
+            <UserButton />
+          </div>
         </SignedIn>
       </div>
 
@@ -87,7 +89,9 @@ const Header = () => {
           </SignInButton>
         </SignedOut>
         <SignedIn>
-          <UserButton />
+          <div className="mt-2 mr-4 origin-center scale-150">
+            <UserButton />
+          </div>
         </SignedIn>
       </div>
 
