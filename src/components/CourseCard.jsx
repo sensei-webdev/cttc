@@ -4,7 +4,11 @@ import React from "react";
 const CourseCard = (elem) => {
   return (
     <div className="w-64 duration-300 ease-in-out md:w-70 lg:w-90 rounded-2xl bg-white/5 hover:scale-105">
-      <img src={elem.image} alt="Image" className="object-cover aspect-3/2 rounded-t-2xl" />
+      <img
+        src={elem.image}
+        alt="Image"
+        className="object-cover aspect-3/2 rounded-t-2xl"
+      />
       <div className="flex flex-col gap-2 p-2 md:p-5">
         <h1 className="text-xl font-bold line-clamp-1">{elem.courseName}</h1>
         <p className="text-gray-400 line-clamp-2">{elem.description}</p>
