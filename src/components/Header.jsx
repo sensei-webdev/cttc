@@ -33,7 +33,7 @@ const Header = () => {
           <img
             src="https://res.cloudinary.com/dttah6xlw/image/upload/v1763009947/ABAC005_1_qtqbdd.svg"
             alt="ABAC"
-            className="bg-cyan-100"
+            className="h-12 rounded bg-cyan-100"
           />
         </NavLink>
 
