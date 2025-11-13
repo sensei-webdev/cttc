@@ -31,7 +31,7 @@ const Header = () => {
         {/* Logo */}
         <NavLink to="/">
           <img
-            src="https://res.cloudinary.com/dttah6xlw/image/upload/v1762839659/ABAC005_1_qtqbdd.svg"
+            src="https://res.cloudinary.com/dttah6xlw/image/upload/v1763009947/ABAC005_1_qtqbdd.svg"
             alt="ABAC"
             className="bg-cyan-100"
           />
